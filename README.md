@@ -12,7 +12,7 @@
 </br>
 
 ###### Возможно использование без указания API_URL и domains Вашего сервера. На моём хосте запущен сервер, крутится в pm2, ручка проксируется nginx. CORS общий, работа только по https:
-###### [https://imagekeeper.webtensei.ru/api](`https://imagekeeper.webtensei.ru/api ` ) _Свагер не настроен_
+###### https://imagekeeper.webtensei.ru/api _Свагер не настроен_
 
 
 
