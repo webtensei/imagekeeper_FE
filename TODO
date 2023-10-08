@@ -1,0 +1,34 @@
+Calculate cards per row
+
+when deleting image update mnth value
+
+when deleting last image - delete group
+
+shitty code for creating image (uploadHelpers -> createUpload) ReactDOM.render
+
+https://github.com/framer/motion/issues/2054
+
+cookieCulter -> something good :)
+
+/dashboard/new while fetching need to show loader or something
+
+NAVBAR 'images stored in keeper' needs to be an interactive
+
+maybe use some global storage? or just continue getting fun w-o?
+
+dragndrop portal building error.
+
+prevent mobile card click on buttons
+
+Allerts to _layout + "allert stack mode"
+
+feature:android logout (maybe change nav)
+
+log -> ip addresses problem
+
+While testing:
+
+android nav broken
+
+when login use lowercase (currently its case sensitivity)
+
