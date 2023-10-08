@@ -25,7 +25,7 @@ const UploadingCard = ({ src, image }: { src: string; image: File }) => {
 
         const formData = new FormData();
         formData.append('image', image);
-        formData.append('author', `${cookieCutter.get('username')}`);
+        formData.append('author', `${cookieCutter.get('username',{path:'/'})}`);
 
         xhr.open('POST', `${API_URL}/images`);
 
