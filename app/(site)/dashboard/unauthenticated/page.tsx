@@ -19,19 +19,19 @@ const Page = () => {
         if (!/\S+@\S+\.\S+/.test(email)) {
             return setEmailError(true);
         }
-        cookieCutter.set('username', `${email}`)
+        cookieCutter.set('username', `${email}`,{path:'/'})
         setRegistrationState(true)
         return 0
     }
 
 
     useEffect(() => {
-        if (cookieCutter.get('username')) {
+        if (cookieCutter.get('username',{path:'/'})) {
             redirect('/')
         }
     }, [])
     useEffect(() => {
-        if (cookieCutter.get('username')) {
+        if (cookieCutter.get('username',{path:'/'})) {
             redirect('/')
         }
     }, [registrationState])

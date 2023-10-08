@@ -52,7 +52,7 @@ const DragnDrop = ({ children }: { children: React.ReactNode }) => {
                 const promises = imageFiles.map((image) => {
                     const formData = new FormData();
                     formData.append('image', image);
-                    formData.append('author', `${cookieCutter.get('username')}`);
+                    formData.append('author', `${cookieCutter.get('username',{path:'/'})}`);
                     return PhotoService.postPhoto(formData);
                 });
 

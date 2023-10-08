@@ -39,7 +39,7 @@ const Page = () => {
     }
         useEffect(()=>{
             console.log('neeew')
-            if(!cookieCutter.get('username')){
+            if(!cookieCutter.get('username',{path:'/'})){
                 redirect('/dashboard/unauthenticated')
             }
         },[])
