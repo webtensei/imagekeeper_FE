@@ -1,5 +1,5 @@
 # ImageKeeper FRONTEND
-HOSTED: https://imagekeeper.webtensei.ru </br>
+HOSTED: https://imagekeeper.webtensei.ru (попробуйте учетку webtensei@gmail.com / создайте новую) </br>
 BACKEND: https://github.com/webtensei/imagekeeper_BE
 
 ## Запуск
